@@ -1,0 +1,8 @@
+renhua
+
+scripts/lib/app-server.mjs is adapted from openai/codex-plugin-cc
+(https://github.com/openai/codex-plugin-cc), Copyright 2026 OpenAI,
+licensed under the Apache License, Version 2.0. See LICENSE.
+
+Changes: reduced to a direct stdio client for `codex app-server`
+(no broker transport), and simplified for renhua's single use case.

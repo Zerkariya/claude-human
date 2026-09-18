@@ -1,0 +1,9 @@
+{
+  "name": "claude-human",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"plugins/renhua/tests/*.test.mjs\"",
+    "test:real": "RENHUA_REAL=1 node --test plugins/renhua/tests/real-codex.test.mjs"
+  }
+}
