@@ -4,5 +4,7 @@
   "description": "用 Codex 把你的话转述给 Claude，再把 Claude 的回复翻成人话。",
   "author": {
     "name": "zerkariya"
-  }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Zerkariya/claude-human"
 }

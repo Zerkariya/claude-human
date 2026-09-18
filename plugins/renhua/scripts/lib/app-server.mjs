@@ -1,5 +1,6 @@
 // Minimal JSON-RPC client for `codex app-server` over stdio.
-// Adapted from openai/codex-plugin-cc (scripts/lib/app-server.mjs), Apache-2.0. See NOTICE.
+// Adapted from openai/codex-plugin-cc (scripts/lib/app-server.mjs). This file stays under the
+// Apache License 2.0 (see LICENSE-APACHE and NOTICE); the rest of renhua is MIT.
 
 import process from "node:process";
 import readline from "node:readline";

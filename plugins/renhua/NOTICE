@@ -1,8 +1,12 @@
 renhua
 
+renhua is licensed under the MIT License (see LICENSE), except for the file
+listed below.
+
 scripts/lib/app-server.mjs is adapted from openai/codex-plugin-cc
 (https://github.com/openai/codex-plugin-cc), Copyright 2026 OpenAI,
-licensed under the Apache License, Version 2.0. See LICENSE.
+and remains licensed under the Apache License, Version 2.0
+(see LICENSE-APACHE).
 
 Changes: reduced to a direct stdio client for `codex app-server`
 (no broker transport), and simplified for renhua's single use case.

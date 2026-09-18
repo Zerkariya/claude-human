@@ -123,4 +123,8 @@ npm run test:real   # 用真 Codex 跑一次，会花一点额度
 
 设计文档：`docs/superpowers/specs/2026-09-17-renhua-design.md`
 
-`plugins/renhua/scripts/lib/app-server.mjs` 改编自 [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)（Apache-2.0），见 `plugins/renhua/NOTICE`。
+## 许可证
+
+MIT，见 `LICENSE`。
+
+例外：`plugins/renhua/scripts/lib/app-server.mjs` 改编自 [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)，这个文件仍然使用 Apache-2.0 许可，见 `plugins/renhua/LICENSE-APACHE` 和 `plugins/renhua/NOTICE`。
